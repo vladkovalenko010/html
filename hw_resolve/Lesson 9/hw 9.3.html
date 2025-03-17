@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+            grid-template-areas:
+            'header header'
+            'content-1 spam-1'
+            'content-2 spam-1'
+            'content-2 spam-2'
+            'content-3 spam-2'
+            'footer footer'
+        ;
+
+        }
+        .grid header{
+            grid-area: header;
+            background: #8D8484;
+        }
+        .grid section:nth-child(2){
+            grid-area: content-1;
+            background: #776969;
+        }
+        .grid section:nth-child(3){
+            grid-area: content-2;
+            background: #643030;
+        }
+        .grid section:nth-child(4){
+            grid-area: content-3;
+            background: #441818;
+        }
+        .grid aside:nth-child(5){
+            grid-area: spam-1;
+            background: #937575;
+        }
+        .grid aside:nth-child(6){
+            grid-area: spam-2;
+            background: #644C4C;
+        }
+        .grid footer{
+            grid-area: footer;
+            background: #BDBDBD;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid">
+    <header></header>
+    <section></section>
+    <section></section>
+    <section></section>
+    <aside></aside>
+    <aside></aside>
+    <footer></footer>
+</div>
+
+</body>
+</html>

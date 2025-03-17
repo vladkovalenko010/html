@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            background-color: darkcyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .form-registration{
+            width: 40vw;
+            height: 50vh;
+            background: white;
+            border-radius: 20px;
+        }
+        .form-registration div:nth-child(1){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 139, 139, 0.35);
+            height: 25%;
+        }
+        .form-registration div:nth-child(1) h3{
+            font-size: 26px;
+            font-weight: 400;
+        }
+        .form-registration form{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+        input[type="text"],
+        input[type="password"]{
+            width: 300px;
+            height: 30px;
+            margin: 15px;
+
+        }
+        .form-registration>form>div{
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+        }
+        form input[type="submit"]{
+            background-color: rgba(0, 139, 139, 0.35);
+            border-radius: 10px;
+            border: 1px solid grey;
+            width: 80px;
+            height: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-registration">
+        <div>
+            <h3>Вхід в особистий кабінет</h3>
+        </div>
+        <form>
+            <input type="text" name="login" placeholder="Логін або email">
+            <input type="password" name="password" placeholder="Пароль">
+            <div>
+                <label>
+                    Запам'ятати мене
+                    <input type="checkbox" name="remember" >
+                </label>
+                <input type="submit" value="Вхід">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

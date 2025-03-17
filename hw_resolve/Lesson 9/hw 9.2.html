@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1.2fr 1.3fr 1fr;
+            grid-template-areas:
+            'header header header'
+            'left-aside top-section right-aside'
+            'left-aside bottom-section right-aside'
+            'footer footer footer';
+
+        }
+
+        header {
+            grid-area: header;
+            background: #D9D9D9;
+        }
+
+        footer {
+            grid-area: footer;
+            background: #D9D9D9;
+        }
+
+        .left-aside {
+            grid-area: left-aside;
+            background: #C0BDBD;
+        }
+
+        .right-aside {
+            grid-area: right-aside;
+            background: #C0BDBD;
+        }
+
+        .top-section {
+            grid-area: top-section;
+            background: #827878;
+        }
+
+        .bottom-section {
+            grid-area: bottom-section;
+            background: #B7ADAD;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header></header>
+    <aside class="left-aside"></aside>
+    <section class="top-section"></section>
+    <section class="bottom-section"></section>
+    <aside class="right-aside"></aside>
+    <footer></footer>
+</div>
+</body>
+</html>
