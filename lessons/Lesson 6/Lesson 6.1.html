@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+/*
+1000б - inline
+100б - id
+10б - class
+1б -  tag
+*/
+body p.lorem{
+    color: crimson;
+}
+p.text{
+    color: blue;
+}
+p{
+    color: coral;
+}
+section p.lorem{
+    color: cyan;
+}
+section div p.text{
+    color: coral;
+}
+
+section div.box p.text{
+    color: pink;
+}
+
+ </style>
+</head>
+<body>
+<section>
+    <div class="box">
+        <p class="text lorem pink">Lorem ipsum dolor sit amet, consectetur.</p>
+    </div>
+</section>
+</body>
+</html>

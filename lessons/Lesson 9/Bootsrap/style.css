@@ -1,0 +1,21 @@
+.btn-primary{
+    background-color: navajowhite;
+}
+.grid-wrapper{
+    height: 90vh;
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.carousel{
+    height: 50vh;
+}
+.carousel img{
+    height: 50vh;
+    object-fit: cover;
+}

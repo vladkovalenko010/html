@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Oswald:wght@200..700&display=swap');
+.jacquarda-text {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+}
+.oswald-400 {
+    font-family: "Oswald", sans-serif;
+}

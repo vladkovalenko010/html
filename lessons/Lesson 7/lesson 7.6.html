@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            height: 100vh;
+        }
+        .card{
+            width: 200px;
+            height: 250px;
+            background: lightslategray;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .sale{
+            width: 70px;
+            height: 45px;
+            background: lightslategray;
+            position: absolute;
+            top: -20px;
+            border-radius: 20px 20px 0 0;
+        }
+        .sale-bottom{
+            width: 70px;
+            height: 45px;
+            background: lightslategray;
+            position: absolute;
+            bottom: -20px;
+            border-radius:  0 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum.</p>
+        <p>Hic, voluptate.</p>
+        <p>Hic, veritatis?</p>
+        <div class="sale-bottom"></div>
+    </div>
+
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum.</p>
+        <p>Hic, voluptate.</p>
+        <p>Hic, veritatis?</p>
+        <div class="sale-bottom"></div>
+    </div>
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum.</p>
+        <p>Hic, voluptate.</p>
+        <p>Hic, veritatis?</p>
+        <div class="sale-bottom"></div>
+    </div>
+</body>
+</html>

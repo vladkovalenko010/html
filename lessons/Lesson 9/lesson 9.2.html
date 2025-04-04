@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .grid-container{
+            display: grid;
+            height: 400px;
+            background-color: grey;
+            border: 1px solid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 100px);
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .item{
+            background-color: lightpink;
+           border: 1px solid;
+            padding: 20px;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item"><span>1</span></div>
+        <div class="item"><span>2</span></div>
+        <div class="item"><span>3</span></div>
+        <div class="item"><span>4</span></div>
+        <div class="item"><span>5</span></div>
+        <div class="item"><span>6</span></div>
+    </div>
+</body>
+</html>
