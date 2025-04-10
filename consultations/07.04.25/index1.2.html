@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+            width: 400px;
+            height: 460px;
+            border: 2px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            /*padding: 20px;*/
+            /*box-sizing: content-box;*/
+        }
+        input[type="text"]{
+            width: 360px;
+            height: 40px;
+        }
+
+        @media screen and (max-width: 500px) {
+            form{
+                width: 300px;
+                height: 300px;
+                gap: 10px;
+            }
+            input[type="text"]{
+                width: 200px;
+                height: 30px;
+            }
+            h1{
+                font-size: 16px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="flex">
+    <form>
+        <h1>Lorem ipsum dolor sit.</h1>
+        <input type="text" placeholder="Lorem ipsum dolor">
+        <input type="text" placeholder="Lorem ipsum dolor">
+        <input type="text" placeholder="Lorem ipsum dolor">
+        <input type="text" placeholder="Lorem ipsum dolor">
+        <input type="text" placeholder="Lorem ipsum dolor">
+    </form>
+</div>
+</body>
+</html>
