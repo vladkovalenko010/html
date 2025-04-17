@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .search-wrapper{
+            display: flex;
+            align-items: center;
+            border: 2px solid #4e7e9a;
+            width: fit-content;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        .search-wrapper input{
+            border: none;
+            outline: none;
+            padding: 8px;
+        }
+        .search-wrapper button{
+            padding: 8px 12px;
+            background: #4e7e9a;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+        }
+        .search-wrapper button:hover{
+            background: #689db9;
+        }
+        .search-wrapper button:active{
+            background: #335a6e;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-wrapper">
+        <input type="search" placeholder="Search...">
+        <button type="submit"> Search </button>
+    </div>
+</body>
+</html>
