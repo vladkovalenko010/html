@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: khaki;
+        }
+        .card{
+            margin: 100px;
+            border: 2px solid;
+            border-radius: 10px;
+            width: 200px;
+            height: 300px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            background: green;
+        }
+        .card img{
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+        .card p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/a/a2/Batman_Jim_Lee.jpg" alt="">
+        <p>Batman</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/a/a2/Batman_Jim_Lee.jpg" alt="">
+        <p>Batman</p>
+        <p>Batman</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/a/a2/Batman_Jim_Lee.jpg" alt="">
+        <p>Batman</p>
+    </div>
+</div>
+</body>
+</html>
