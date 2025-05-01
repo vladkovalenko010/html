@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+    background-image: url("../images/batman-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, .actor {
+    background-color: rgba(245, 245, 245, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    width: fit-content;
+}
+
+.actor {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 15px;
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 20px;
+    color: #6a1717;
+}
