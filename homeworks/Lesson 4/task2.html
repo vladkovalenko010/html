@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        header, .content, footer{
+            height: 20vh;
+        }
+
+        header{
+            background-color: #8D8484;
+        }
+
+        footer{
+            background-color: #BDBDBD;
+        }
+
+        .content{
+            width: 73vw;
+            color: white;
+        }
+
+        .spam{
+            height: 30vh;
+            width: 27vw;
+            color: white;
+        }
+
+        main{
+            display: flex;
+        }
+
+        header, footer, .content, .spam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<header>Header</header>
+<main>
+    <section class="left">
+        <section class="content" style="background-color: #776969">Content-1</section>
+        <section class="content" style="background-color: #643030">Content-2</section>
+        <section class="content" style="background-color: #441818">Content-3</section>
+    </section>
+    <section class="right">
+        <section class="spam" style="background-color: #937575">Spam-1</section>
+        <section class="spam" style="background-color: #644C4C">Spam-2</section>
+    </section>
+</main>
+<footer>Footer</footer>
+</body>
+</html>
