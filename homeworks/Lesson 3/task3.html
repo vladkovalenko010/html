@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+        scroll-behavior: smooth;
+        }
+
+        body{
+            h2, p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 100px;
+        }
+
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 50px;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 42px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        #brown{
+            background-color: brown;
+        }
+
+        #blue{
+            background-color: cornflowerblue;
+        }
+
+        #green{
+            background-color: mediumseagreen;
+        }
+    </style>
+</head>
+<body>
+    <section id="brown">
+        <h2>Section title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+        <a class="dArr" href="#blue">&#8659</a>
+    </section>
+    <section id="blue">
+        <a class="uArr" href="#brown">&#8657</a>
+        <h2>Section title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+        <a class="dArr" href="#green">&#8659</a>
+    </section>
+    <section id="green">
+        <a class="uArr" href="#blue">&#8657</a>
+        <h2>Section title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam asperiores delectus, ex excepturi facere fugit magnam, minus mollitia nobis officia, optio perspiciatis ratione tempora tempore temporibus vitae voluptates.</p>
+    </section>
+</body>
+</html>
