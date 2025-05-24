@@ -88,4 +88,9 @@ Task 3
 
 Task 4
 Створи веб-сторінку за макетом hw2.4: розмісти 5 блоків однакового розміру та будь якого кольору. Всередині кожного
-блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом ('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')
+блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом (
+'Rubik Pixels',
+'Sedgwick Ave Display',
+'Dancing Script',
+'Fjalla One',
+'Indie Flower')
